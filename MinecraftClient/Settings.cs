@@ -27,7 +27,7 @@ namespace MinecraftClient
         public static string Password = "";
         public static string ServerIP = "";
         public static ushort ServerPort = 25565;
-        public static string ServerVersion = "404";
+        public static string ServerVersion = "";
         public static string SingleCommand = "";
         public static string ConsoleTitle = "";
 
@@ -535,13 +535,13 @@ namespace MinecraftClient
                 + "\r\n"
                 + "# Advanced settings\r\n"
                 + "\r\n"
-                + "language=en_GB\r\n"
+                + "language=ja_JP\r\n"
                 + "consoletitle=%username%@%serverip% - Minecraft Console Client\r\n"
                 + "internalcmdchar=slash              # Use 'none', 'slash' or 'backslash'\r\n"
                 + "splitmessagedelay=2                # Seconds between each part of a long message\r\n"
                 + "botowners=Player1,Player2,Player3  # Use name list or myfile.txt with one name per line\r\n"
                 + "botmessagedelay=2                  # Seconds to delay between message a bot makes to avoid accidental spam\r\n"
-                + "mcversion=auto                     # Use 'auto' or '1.X.X' values\r\n"
+                + "mcversion=1.14.4                   # Use 'auto' or '1.X.X' values\r\n"
                 + "brandinfo=mcc                      # Use 'mcc','vanilla', or 'none'\r\n"
                 + "chatbotlogfile=                    # Leave empty for no logfile\r\n"
                 + "privatemsgscmdname=tell            # Used by RemoteControl bot\r\n"
@@ -581,19 +581,19 @@ namespace MinecraftClient
                 + "\r\n"
                 + "[MCSettings]\r\n"
                 + "enabled=true                       # If disabled, settings below are not sent to the server\r\n"
-                + "locale=en_US                       # Use any language implemented in Minecraft\r\n"
+                + "locale=ja_JP                       # Use any language implemented in Minecraft\r\n"
                 + "renderdistance=medium              # Use tiny, short, medium, far, or chunk amount [0 - 255]\r\n"
                 + "difficulty=normal                  # MC 1.7- difficulty. peaceful, easy, normal, difficult\r\n"
                 + "chatmode=enabled                   # Use 'enabled', 'commands', or 'disabled'. Allows to mute yourself...\r\n"
                 + "chatcolors=true                    # Allows disabling chat colors server-side\r\n"
-                + "main_hand=left                     # MC 1.9+ main hand. left or right\r\n"
+                + "main_hand=right                    # MC 1.9+ main hand. left or right\r\n"
                 + "skin_cape=true\r\n"
                 + "skin_hat=true\r\n"
-                + "skin_jacket=false\r\n"
-                + "skin_sleeve_left=false\r\n"
-                + "skin_sleeve_right=false\r\n"
-                + "skin_pants_left=false\r\n"
-                + "skin_pants_right=false"
+                + "skin_jacket=true\r\n"
+                + "skin_sleeve_left=true\r\n"
+                + "skin_sleeve_right=true\r\n"
+                + "skin_pants_left=true\r\n"
+                + "skin_pants_right=true"
                 + "\r\n"
                 + "# Bot Settings\r\n"
                 + "\r\n"
